@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<title>蓝汐商城 · 分类</title>
+<link rel="stylesheet" href="css/style.css">
+<style>
+  .cat-page { display: grid; grid-template-columns: 210px 1fr; gap: 20px; padding-top: 20px; }
+  .side { background: #fff; border-radius: 14px; padding: 12px 0; height: fit-content; }
+  .side h4 { font-size: 14px; padding: 10px 20px 8px; }
+  .side a { display: block; padding: 10px 20px; font-size: 13px; color: #5a6478; border-left: 3px solid transparent; }
+  .side a.on { color: #1a6bff; background: #f2f7ff; border-left-color: #1a6bff; }
+  .cat-main .bar {
+    background: #fff; border-radius: 14px; padding: 14px 20px; display: flex; align-items: center;
+    gap: 12px; font-size: 13px; color: #5a6478; margin-bottom: 16px;
+  }
+  .cat-main .bar b { color: #263043; }
+  .cat-main .bar .sort { margin-left: auto; display: flex; gap: 8px; }
+  .cat-main .bar .sort button {
+    border: 1px solid #e2e7f2; background: #fff; color: #5a6478; font-size: 12px;
+    padding: 5px 12px; border-radius: 14px; cursor: pointer;
+  }
+  .cat-main .bar .sort button.on { border-color: #1a6bff; color: #1a6bff; background: #f2f7ff; }
+</style>
+</head>
+<body>
+
+<div id="app-header"></div>
+
+<main class="wrap cat-page">
+  <aside class="side" id="side"></aside>
+  <div class="cat-main">
+    <div class="bar">
+      <b id="catTitle">全部分类</b>
+      <span id="catCount"></span>
+      <div class="sort" id="sortBar">
+        <button data-sort="" class="on">综合</button>
+        <button data-sort="price_asc">价格 ↑</button>
+        <button data-sort="price_desc">价格 ↓</button>
+        <button data-sort="new">最新</button>
+      </div>
+    </div>
+    <div class="grid" id="productGrid"></div>
+    <div class="pager" id="pager"></div>
+  </div>
+</main>
+
+<div id="app-footer"></div>
+
+<script src="js/api.js"></script>
+<script src="js/common.js"></script>
+<script src="js/category.js"></script>
+</body>
+</html>

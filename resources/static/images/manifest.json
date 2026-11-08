@@ -1,0 +1,34 @@
+{
+  "products": [
+    { "file": "p1.jpg",  "name": "降噪蓝牙耳机 Pro",   "sub": "主动降噪 · 40 小时续航" },
+    { "file": "p2.jpg",  "name": "客制化机械键盘 87 键", "sub": "三模热插拔 · 静音轴" },
+    { "file": "p3.jpg",  "name": "意式手冲咖啡豆 500g",  "sub": "中深烘焙 · 坚果可可调" },
+    { "file": "p4.jpg",  "name": "夏季碎花连衣裙",      "sub": "纯棉 · 收腰显瘦" },
+    { "file": "p5.jpg",  "name": "人体工学办公椅",      "sub": "4D 扶手 · 网布透气" },
+    { "file": "p6.jpg",  "name": "轻量跑步鞋",          "sub": "缓震回弹 · 透气网面" },
+    { "file": "p7.jpg",  "name": "氨基酸温和洁面乳",     "sub": "弱酸性 · 敏感肌可用" },
+    { "file": "p8.jpg",  "name": "便携榨汁杯 350ml",    "sub": "无线充电 · 六叶刀头" },
+    { "file": "p9.jpg",  "name": "27 英寸 2K 显示器",   "sub": "165Hz · IPS 屏" },
+    { "file": "p10.jpg", "name": "14 英寸轻薄本",       "sub": "32G 内存 + 1T 固态" },
+    { "file": "p11.jpg", "name": "20000mAh 充电宝",     "sub": "双向快充 · 可上飞机" },
+    { "file": "p12.jpg", "name": "316 不锈钢保温杯",     "sub": "24 小时保温" },
+    { "file": "coffee bean.jpg",          "name": "意式手冲咖啡豆 500g",  "sub": "中深烘焙 · 坚果可可调" },
+    { "file": "Bluetooth earphones.jpg",  "name": "降噪蓝牙耳机 Pro",    "sub": "主动降噪 · 40 小时续航" },
+    { "file": "keyboard.jpg",             "name": "客制化机械键盘 87 键", "sub": "三模热插拔 · 静音轴" }
+  ],
+  "banners": [
+    { "file": "b1.jpg", "title": "夏日焕新季", "sub": "精选好物 低至 5 折 · 满 199 减 30" },
+    { "file": "b2.jpg", "title": "电脑办公专场", "sub": "笔记本 / 显示器 / 键鼠 一站配齐" },
+    { "file": "b3.jpg", "title": "手冲咖啡季", "sub": "当季新豆 · 第二件半价" }
+  ],
+  "categories": [
+    { "file": "c1.png", "text": "数", "color": "52,110,235" },
+    { "file": "c2.png", "text": "电", "color": "34,150,160" },
+    { "file": "c3.png", "text": "影", "color": "124,92,220" },
+    { "file": "c4.png", "text": "衣", "color": "226,116,150" },
+    { "file": "c5.png", "text": "家", "color": "219,150,60" },
+    { "file": "c6.png", "text": "妆", "color": "214,96,120" },
+    { "file": "c7.png", "text": "食", "color": "90,168,96" },
+    { "file": "c8.png", "text": "运", "color": "58,132,196" }
+  ]
+}
