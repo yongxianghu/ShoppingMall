@@ -5,7 +5,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
- * 蓝汐商城后端启动类。
+ * 溜溜商城后端启动类。
  */
 @SpringBootApplication
 @MapperScan("com.shop.mapper")
