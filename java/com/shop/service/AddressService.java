@@ -6,7 +6,7 @@ import com.shop.entity.AddressTbl;
 import java.util.List;
 
 /**
- * 收货地址。
+ * 收货地址。1111112222222
  */
 public interface AddressService extends IService<AddressTbl> {
 

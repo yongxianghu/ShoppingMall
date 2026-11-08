@@ -1,13 +1,41 @@
 <!doctype html>
 <html lang="zh-CN">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>溜溜商城</title>
-    <script type="module" crossorigin src="/assets/index-DQc8VEUb.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-BAQTmNTE.css">
-  </head>
-  <body>
-    <div id="app"></div>
-  </body>
+<head>
+<meta charset="utf-8">
+<title>蓝汐商城 · 首页</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div id="app-header"></div>
+
+<main class="wrap">
+  <div class="banner" id="banner">
+    <div class="dots" id="dots"></div>
+  </div>
+
+  <div class="quick" id="quick"></div>
+
+  <section class="section">
+    <div class="section-head">
+      <h3 id="sectionTitle">热卖推荐</h3>
+      <div class="sub" id="sectionSub">按销量排序</div>
+      <div class="sort" id="sortBar">
+        <button data-sort="" class="on">综合</button>
+        <button data-sort="price_asc">价格 ↑</button>
+        <button data-sort="price_desc">价格 ↓</button>
+        <button data-sort="new">最新</button>
+      </div>
+    </div>
+    <div class="grid" id="productGrid"></div>
+    <div class="pager" id="pager"></div>
+  </section>
+</main>
+
+<div id="app-footer"></div>
+
+<script src="js/api.js"></script>
+<script src="js/common.js"></script>
+<script src="js/index.js"></script>
+</body>
 </html>
